@@ -1,0 +1,66 @@
+body
+{
+	background: #f0f0f0;
+}
+
+div#container
+{
+	margin: 0px auto;
+	padding: 0;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+div#trail
+{
+	margin: 0px auto;
+	padding: 0px;
+	width: 480px;
+	height: 320px;
+}	
+
+canvas
+{
+	margin: 0 auto;
+	padding: 0;
+	background: #252525;
+}
+
+@media screen and (min-width: 640px)
+{
+
+	div#container
+	{
+		margin: 20px 0;
+		height: auto;
+		text-align: center;
+
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+	}
+
+	div#trail
+	{
+		padding: 37px 134px 29px 125px;
+		width: 480px;
+		height: 320px;
+		background: url('../assets/img/iphone-4-flat.png') no-repeat;
+	}
+
+	img.logo
+	{
+		margin: 20px auto;
+		display: block;
+	}
+
+	a, a:visited
+	{
+		color: #1e1e14;
+	}
+
+	a:hover
+	{
+		color: #5e5e54;
+	}
+}
